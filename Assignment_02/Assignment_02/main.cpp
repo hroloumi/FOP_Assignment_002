@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Character.h"
+#include "GameMenu.h"
 
 Character player;
 std::string name;
@@ -61,7 +62,7 @@ int main() {
             continueGame = false;
         }
 
-        // Clear input buffer
+        
         std::cin.ignore();
     }
 

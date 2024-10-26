@@ -4,7 +4,7 @@
 #include <ctime>
 #include <string>
 
-// Constructor to initialize stats
+// Constructor
 Character::Character() : 
     m_strength(0),
     m_dexterity(0),
